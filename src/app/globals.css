@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 0 0 0; /* black */
+  --secondary: 46 68 233; /* blue-brand */
+  --background: 255 255 255;
+
+  scroll-behavior: smooth;
+}
+
+html.dark {
+  --primary: 255 255 255; 
+  --secondary: 55 48 163;
+  --background: 30 27 75;
+}
